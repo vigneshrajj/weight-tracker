@@ -1,0 +1,34 @@
+.center-container {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    .login-container {
+        margin: auto;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        input {
+            border: none;
+            outline: none;
+            padding: 10px;
+            border-radius: 50px;
+        }
+        p {
+            color: red;
+        }
+        button {
+            background: #75DDDD;
+            outline: none;
+            color: white;
+            border: none;
+            width: 100px;
+            padding: 10px;
+            border-radius: 50px;
+            transition: background 0.2s;
+            &:hover {
+                background: #539b9b;
+            }
+        }
+    }
+}

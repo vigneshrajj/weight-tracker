@@ -1,0 +1,42 @@
+.weight-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    .weight-item {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        width: 300px;
+        border: 1px solid;
+        margin: 10px 0;
+        padding: 10px;
+        border-radius: 50px;
+        height: 30px;
+        .weight-display {
+            font-weight: bolder;
+            font-size: 25px;
+            margin-left: 20px;
+        }
+        .weight-input {
+            border: none;
+            outline: none;
+            height: 30px;
+            width: 75px;
+            margin-left: 20px;
+        }
+        .edit-container {
+            display: flex;
+            font-size: 20px;
+            .edit {
+                margin-right: 10px;
+                cursor: pointer;
+            }
+            .delete {
+                font-weight: 900;
+                user-select: none;
+                cursor: pointer;
+            }
+        }
+    }
+}
